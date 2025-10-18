@@ -1,0 +1,18 @@
+{
+    "name": "task-tracker",
+    "version": "1.0.0",
+    "description": "A simple CLI task tracking application",
+    "bin": {
+        "task-cli": "./index.js"
+    },
+    "scripts": {
+        "test":"",
+        "start": "node index.js"
+    },
+    "author": "Carlos Cochero",
+    "license": "ISC",
+    "dependencies": {
+
+    },
+    "type": "module"
+}

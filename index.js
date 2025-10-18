@@ -1,28 +1,23 @@
-import { getReadlineInterface } from "./utils/readline.js";
+#!/usr/bin/env node
 import { createTask } from "./components/createTask.js";
+import { showHelp } from "./components/help.js";
+import { updateTask } from "./components/updateTask.js";
 
-const rl = getReadlineInterface();
+const args = process.argv.slice(2);
 
 async function main() {
-  console.log("Welcome to the Task Tracker!");
-  let exit = false;
-  while (!exit) {
-    const command = await rl.question(
-      "Enter a command (create, list, update, delete, exit): "
-    );
-    switch (command.trim().toLowerCase()) {
-      case "create":
-        await createTask(rl);
-        break;
-      case "exit":
-        exit = true;
-        break;
-      default:
-        console.log("Unknown command. Please try again.");
-        break;
-    }
+  if (args[0] === "help" || args.length === 0) {
+    showHelp();
+    return;
   }
-  rl.close();
-}
 
-  await main();
+  if (args[0] === "create") {
+    await createTask(args[1]); // args[1] = descripción
+    return;
+  }
+
+  if (args[0] === "update") {
+    updateTask(args[1], args[2]); // args[1] = id, args[2] = descripción
+  }
+}
+await main();
