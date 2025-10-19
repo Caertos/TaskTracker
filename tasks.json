@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "description": "Updated task description",
+    "status": "in-progress",
+    "creationDate": "10/18/2025, 6:59:14 PM",
+    "modificationDate": "10/18/2025, 7:21:34 PM"
+  },
+  {
+    "id": 2,
+    "description": "Updated with new modularization",
+    "status": "done",
+    "creationDate": "10/18/2025, 7:17:10 PM",
+    "modificationDate": "10/18/2025, 7:21:41 PM"
+  },
+  {
+    "id": 3,
+    "description": "Pending task example",
+    "status": "pending",
+    "creationDate": "10/18/2025, 7:33:56 PM",
+    "modificationDate": null
+  }
+]
