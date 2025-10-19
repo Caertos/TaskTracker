@@ -1,5 +1,7 @@
 # Task Tracker CLI
 
+> **Project URL:** [https://github.com/Caertos/TaskTracker](https://github.com/Caertos/TaskTracker)
+
 A simple command-line interface (CLI) task tracking application built with Node.js.
 
 ## 📋 Description
