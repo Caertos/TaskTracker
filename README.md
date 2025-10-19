@@ -1,6 +1,8 @@
 # Task Tracker CLI
 
-> **Project URL:** [https://github.com/Caertos/TaskTracker](https://github.com/Caertos/TaskTracker)
+> **Project from:** [roadmap.sh - Task Tracker](https://roadmap.sh/projects/task-tracker)
+>
+> This project is part of the [Backend Developer Roadmap](https://roadmap.sh/backend) by roadmap.sh. It's a beginner-friendly project designed to practice fundamental programming skills including working with the filesystem, handling user inputs, and building a CLI application.
 
 A simple command-line interface (CLI) task tracking application built with Node.js.
 
